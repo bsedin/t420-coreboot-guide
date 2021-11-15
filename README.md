@@ -1,3 +1,14 @@
+Thanks to https://github.com/NenadStoisavljevic/t420-coreboot-guide I managed to build and flash coreboot to my laptop.
+I forked the original repo and added my coreboot and factory roms, maybe you'll find it useful.
+
+coreboot.rom is Ivybridge ready (I'm using 3720QM CPU), has SeaBIOS and nvramcui payloads (so you can do Fn-Ctrl hardware swap and some other stuff)
+
+
+
+====================
+
+# Original README:
+
 # Flashing Coreboot on the ThinkPad T420
 
 I have a more detailed explanation on the process of flashing coreboot on [my website](https://nenadstoisavljevic.xyz/articles/coreboot). This repository is mostly just plain commands for what you would run, I find this easier to follow anyhow.
